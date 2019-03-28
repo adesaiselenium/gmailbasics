@@ -32,6 +32,7 @@ public class ReadingFile {
 				System.out.println(sheet.getRow(i).getCell(j));
 				}
 				System.out.println("*************");
+				System.out.println("##########");
 	}
 	}
 

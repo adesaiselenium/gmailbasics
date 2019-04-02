@@ -68,6 +68,7 @@ public class gmailFileRead {
 		
 		d1.findElement(By.xpath("//*[@class='a1 aaA aMZ']")).click();
 		Thread.sleep(5000);
+		//Apple Script
 		Runtime.getRuntime().exec("osascript " + "/Users/AshwiniDesai/Desktop/Attachment.scpt");
 		Thread.sleep(5000);
 		Thread.sleep(5000);
@@ -75,17 +76,12 @@ public class gmailFileRead {
 		Thread.sleep(5000);
 		//Thread.sleep(5000);
 
-		
+		// Click on SignOut
 		d1.findElement(By.xpath("//*[@id=\"gb\"]/div[2]/div[3]/div/div[2]/div/a")).click();
 		Thread.sleep(5000);
-		//d1.findElement(By.linkText("Sign out")).click();
-		//webDriver.findElement(By.xpath("//a[@href='/docs/configuration']")).click();
-		
-	//	d1.findElement(By.linkText("Sign out")).click();
 		
 		d1.findElement(By.xpath("//*[@id=\"gb_71\"]")).click();
 
-		//String str1= d1.findElements(By.id("gb_71").getAttribute(href);
 		
 		// New Changes to the code
 		

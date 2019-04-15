@@ -20,6 +20,7 @@ public class gMailBasics {
 	d1.get("https:www.gmail.com");
 	
 	// To enter the eMail and Password
+	////*[@id="classificationEditable"]/select
 	d1.findElement(By.id("identifierId")).sendKeys("ashwini.sinchana27@gmail.com");
 	
 	d1.findElement(By.xpath("//span[.='Next']")).click();
